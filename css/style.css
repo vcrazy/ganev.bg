@@ -1,0 +1,65 @@
+/* general style start */
+body{font-size: 11pt; font-family: "Times New Roman", Georgia, Verdana, Arial; color: white; background: black url('../images/page_bg.jpg') no-repeat fixed right top;}
+
+ul{list-style: none;	padding: 0px; margin: 0px;}
+li{float: left; margin: 0px 5px;}
+
+h1, h3{color: #68B8DF; padding: 0px; line-height: 16px; font-size: 18pt; text-align: center; letter-spacing:0px; font-weight: normal;}
+h2, h4{padding: 0px 10px; text-align: justify; line-height: 18px; font-size: 12pt; text-indent: 10px; margin: 12px 0px 36px 0px; letter-spacing:0px;}
+h5{color: #68B8DF; line-height: 16px; font-size: 12pt; text-align: center;}
+h6{text-align: justify; line-height: 18px; font-size: 11pt; text-indent: 5px; margin: 6px 0px 24px 0px;}
+
+a:link,a:visited,a:active {color: #FFE761; text-decoration: none;}
+a:hover{color: #68B8DF;}
+/* general style end */
+
+/* header and footer start */
+#header{line-height: 150px; text-align: center; font-size: 28pt;}
+#header a{color: #FFE761;}
+#header a:hover{color: #C5E946;}
+#footer{margin-top: 24px; padding-bottom: 5px; color: white; font-size: 13pt;}
+/* header and footer end */
+
+/* menus start */
+#menu{font-size: 16pt;}
+
+.home a{color: #FFE761;}
+.home a:hover{color: #68B8DF;}
+
+.about a{color: #68B8DF;}
+.about a:hover{color: white;}
+
+.projects a{color: white;}
+.projects a:hover{color: #A5F926;}
+
+.contacts a{color: #A5F926;}
+.contacts a:hover{color: #FFE761;}
+/* menus end */
+
+/* indicator start */
+#indicator{width: 130px; line-height: 5px; height: 5px; padding: 0px 5px; margin-bottom: 50px;}
+.i_1{background-color: #FFE761; margin-left: 160px;}
+.i_2{background-color: #68B8DF; margin-left: 320px;}
+.i_3{background-color: white; margin-left: 480px;}
+.i_4{background-color: #C5E946; margin-left: 640px;}
+/* indicator end */
+
+/* colors start */
+.yellow a{color: #FFE761;}
+.blue a{color: #68B8DF;}
+.white a{color: white;}
+.green a{color: #C5E946;}
+.red a{color: #FF0080;}
+/* colors end */
+
+.left {text-align: left;}
+.right {text-align: right;}
+
+.line{background-color: #FFE761; line-height: 3px; height: 3px; margin: 5px 20px 0px 20px; border: none;}
+.small_line{background-color: #FFE761; line-height: 3px; height: 3px; margin: 5px 10px 0px 10px; border: none;}
+
+.read_more{float:right; padding: 0px 10px 0px 0px; border-bottom: 1px dotted #68B8DF;}
+.read_more:hover{border-bottom: 1px dotted #FFE761;}
+
+.grid_2{line-height: 50px; text-align: center;}
+.image{margin: 4px 9px; width: 80px; height: 80px; float:left; border: 1px dotted white; cursor: pointer;}
