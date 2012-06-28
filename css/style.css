@@ -13,12 +13,13 @@ a:link,a:visited,a:active {color: #FFE761; text-decoration: none;}
 a:hover{color: #68B8DF;}
 /* general style end */
 
-/* header and footer start */
+/* header start */
+.abs {position: fixed; top: 0px; z-index: 3; background: black url('../images/page_bg.jpg') no-repeat fixed right top;}
+.gabs {position: absolute;}
 #header{line-height: 150px; text-align: center; font-size: 28pt;}
 #header a{color: #FFE761;}
 #header a:hover{color: #C5E946;}
-#footer{margin-top: 24px; padding-bottom: 5px; color: white; font-size: 13pt;}
-/* header and footer end */
+/* header end */
 
 /* menus start */
 #menu{font-size: 16pt;}
@@ -63,3 +64,9 @@ a:hover{color: #68B8DF;}
 
 .grid_2{line-height: 50px; text-align: center;}
 .image{margin: 4px 9px; width: 80px; height: 80px; float:left; border: 1px dotted white; cursor: pointer;}
+
+#home_block {margin-top: 255px;}
+#who_am_i_block {margin-top: 1200px;}
+#projects_block {margin-top: 2200px;}
+#contacts_block {margin-top: 3200px;}
+
