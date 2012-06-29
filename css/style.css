@@ -4,8 +4,8 @@ body{font-size: 11pt; font-family: "Times New Roman", Georgia, Verdana, Arial; c
 ul{list-style: none;	padding: 0px; margin: 0px;}
 li{float: left; margin: 0px 5px;}
 
-h1, h3{color: #68B8DF; padding: 0px; line-height: 16px; font-size: 18pt; text-align: center; letter-spacing:0px; font-weight: normal;}
-h2, h4{padding: 0px 10px; text-align: justify; line-height: 18px; font-size: 12pt; text-indent: 10px; margin: 12px 0px 36px 0px; letter-spacing:0px;}
+h1{color: #68B8DF; padding: 0px; line-height: 16px; font-size: 18pt; text-align: center; letter-spacing:0px; font-weight: normal;}
+h2{padding: 0px 10px; text-align: justify; line-height: 18px; font-size: 12pt; text-indent: 10px; margin: 12px 0px 36px 0px; letter-spacing:0px;}
 h5{color: #68B8DF; line-height: 16px; font-size: 12pt; text-align: center;}
 h6{text-align: justify; line-height: 18px; font-size: 11pt; text-indent: 5px; margin: 6px 0px 24px 0px;}
 
@@ -14,7 +14,7 @@ a:hover{color: #68B8DF;}
 /* general style end */
 
 /* header start */
-.abs {position: fixed; top: 0px; z-index: 3; background: black url('../images/page_bg.jpg') no-repeat fixed right top;}
+.abs {position: fixed; top: 0px; z-index: 3; background: black url('../images/page_bg.jpg') no-repeat fixed right top; display: block;}
 .gabs {position: absolute;}
 #header{line-height: 150px; text-align: center; font-size: 28pt;}
 #header a{color: #FFE761;}
@@ -53,20 +53,7 @@ a:hover{color: #68B8DF;}
 .red a{color: #FF0080;}
 /* colors end */
 
-.left {text-align: left;}
-.right {text-align: right;}
-
-.line{background-color: #FFE761; line-height: 3px; height: 3px; margin: 5px 20px 0px 20px; border: none;}
-.small_line{background-color: #FFE761; line-height: 3px; height: 3px; margin: 5px 10px 0px 10px; border: none;}
-
-.read_more{float:right; padding: 0px 10px 0px 0px; border-bottom: 1px dotted #68B8DF;}
-.read_more:hover{border-bottom: 1px dotted #FFE761;}
+hr{background-color: #FFE761; line-height: 3px; height: 3px; margin: 5px 20px 0px 20px; border: none;}
 
 .grid_2{line-height: 50px; text-align: center;}
 .image{margin: 4px 9px; width: 80px; height: 80px; float:left; border: 1px dotted white; cursor: pointer;}
-
-#home_block {margin-top: 255px;}
-#who_am_i_block {margin-top: 1200px;}
-#projects_block {margin-top: 2200px;}
-#contacts_block {margin-top: 3200px;}
-
