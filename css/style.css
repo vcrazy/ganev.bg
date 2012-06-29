@@ -14,7 +14,7 @@ a:hover{color: #68B8DF;}
 /* general style end */
 
 /* header start */
-.abs {position: fixed; top: 0px; z-index: 3; background: black url('../images/page_bg.jpg') no-repeat fixed right top; display: block;}
+.abs {position: fixed; top: 0px; z-index: 3; background: black url('../images/page_bg.jpg') no-repeat fixed right top; display: block; opacity: 0.99; filter: alpha(opacity='99');}
 .gabs {position: absolute;}
 #header{line-height: 150px; text-align: center; font-size: 28pt;}
 #header a{color: #FFE761;}

@@ -116,15 +116,15 @@ $(document).ready(function(){
 
 	// header blink
 	function changeabsopacity(){
-		var s = 1;
+		var s = 0.99;
 
-		if($('.abs').css('opacity') == 1){ // if visible
+		if($('.abs').css('opacity').substr(0, 4) == s){ // if visible
 			s = 0.8;
 		}
 
-		$('.abs').animate({opacity: s}, 2000); // animate opacity
+		$('.abs').animate({opacity: s}, 2000).css('filter', ''); // animate opacity
 
-		setTimeout(changeabsopacity, 2000); // call self after ns.......
+		setTimeout(changeabsopacity, 4000); // call self after ns.......
 	}
 	changeabsopacity();
 });
