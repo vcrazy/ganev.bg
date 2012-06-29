@@ -1,24 +1,23 @@
 /* general style start */
-body{font-size: 11pt; font-family: "Times New Roman", Georgia, Verdana, Arial; color: white; background: black url('../images/page_bg.jpg') no-repeat fixed right top;}
+body{font-size: 11pt; font-family: Georgia, "Times New Roman", Verdana, Arial; color: white; background: black url('../images/page_bg.jpg') no-repeat fixed right top;}
 
-ul{list-style: none;	padding: 0px; margin: 0px;}
+ul{list-style: none; padding: 0px; margin: 0px;}
 li{float: left; margin: 0px 5px;}
 
-h1{color: #68B8DF; padding: 0px; line-height: 16px; font-size: 18pt; text-align: center; letter-spacing:0px; font-weight: normal;}
-h2{padding: 0px 10px; text-align: justify; line-height: 18px; font-size: 12pt; text-indent: 10px; margin: 12px 0px 36px 0px; letter-spacing:0px;}
-h5{color: #68B8DF; line-height: 16px; font-size: 12pt; text-align: center;}
-h6{text-align: justify; line-height: 18px; font-size: 11pt; text-indent: 5px; margin: 6px 0px 24px 0px;}
+h1, h2{font-family: Georgia; letter-spacing: 0px;}
+h1{color: #68B8DF; padding: 0px; line-height: 16px; font-size: 18pt; text-align: center; font-weight: normal;}
+h2{padding: 0px 10px; text-align: justify; line-height: 23px; font-size: 13pt; text-indent: 10px; margin: 12px 0px 36px 0px; min-height: 80px;}
 
 a:link,a:visited,a:active {color: #FFE761; text-decoration: none;}
-a:hover{color: #68B8DF;}
+a:hover{color: #68B8DF; opacity: 0.9; filter: alpha(opacity=0.9);}
 /* general style end */
 
 /* header start */
 .abs {position: fixed; top: 0px; z-index: 3; background: black url('../images/page_bg.jpg') no-repeat fixed right top; display: block; opacity: 0.99; filter: alpha(opacity='99');}
 .gabs {position: absolute;}
 #header{line-height: 150px; text-align: center; font-size: 28pt;}
-#header a{color: #FFE761;}
-#header a:hover{color: #C5E946;}
+#header span{ color: #FFE761;}
+#header span:hover{color: #C5E946; cursor: crosshair;}
 /* header end */
 
 /* menus start */

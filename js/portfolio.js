@@ -119,12 +119,12 @@ $(document).ready(function(){
 		var s = 0.99;
 
 		if($('.abs').css('opacity').substr(0, 4) == s){ // if visible
-			s = 0.8;
+			s = 0.85;
 		}
 
-		$('.abs').animate({opacity: s}, 2000).css('filter', ''); // animate opacity
+		$('.abs').animate({opacity: s}, 1500).css('filter', ''); // animate opacity
 
-		setTimeout(changeabsopacity, 4000); // call self after ns.......
+		setTimeout(changeabsopacity, 3000); // call self after ns.......
 	}
 	changeabsopacity();
 });
